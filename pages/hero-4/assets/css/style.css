@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-image: url('/pages/hero-4/assets/img/slytherin\ common.jpg'); /* Add your background image here */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    background: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.header a {
+    color: #e4dfdf;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    border: 1px solid #157229;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #000;
+}
+
+.header a:hover {
+    background-color: #1d8640;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.image-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.text-content h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.text-content h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #cccccc;
+}
+
+.text-content p {
+    font-size: 16px;
+    color: #bbbbbb;
+}
+
+.signature img {
+    height: 100px;
+    margin: 20px 0;
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.next a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}

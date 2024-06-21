@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Great+Vibes&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('/pages/hero-2/assets/img/phoenex.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    height: 100vh;
+    margin: 0;
+    padding-top: 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    background: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.header a {
+    color: #e4dfdf;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    border: 1px solid #341d86;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #000;
+}
+
+.header a:hover {
+    background-color: #341d86;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.card {
+    display: flex;
+    background-color: #ececec;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 700px;
+    margin: 20px;
+}
+
+.card-image img {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+    background: linear-gradient(to bottom, #d5dde6, #f7f9fc);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Cinzel', serif;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-size: 16px;
+    color: #2c3e50;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.author-role {
+    font-size: 14px;
+    color: #34495e;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.card-title {
+    font-size: 22px;
+    color: #2c3e50;
+    margin: 10px 0;
+    font-family: 'Cinzel', serif;
+}
+
+.card-meta {
+    font-size: 14px;
+    color: #34495e;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #34495e;
+}
+
+.card-description a {
+    color: #8e44ad;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.card-description a:hover {
+    color: #732d91;
+}
