@@ -55,28 +55,36 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+<h1>Project Description</h1>
+The project is about creating dynamic web cards using HTML and CSS, designed to showcase various content sections with engaging transitions and animations.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
-### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+The project is about creating interactive web cards using HTML and CSS. Each card is designed to present specific content sections with visually appealing layouts and animations.
+
+The purpose of the project is to demonstrate proficiency in creating and designing interactive cards for web pages. It aims to showcase creativity in layout design, animation effects, and user engagement through dynamic content presentation.
+
+
+
+Card Design: Each card features custom-designed layouts using HTML and styled with CSS to achieve visual appeal and user interaction.
+Interactive Elements: Incorporates interactive features within the cards to enhance user engagement and provide a seamless browsing experience.
+Animation Effects: Implements CSS animations and transitions to create dynamic visual effects such as hover effects, fades, and sliding transitions.
+Responsive Design: Ensures the cards adapt smoothly to different screen sizes and devices, maintaining consistency in appearance and functionality.
+
+What technology used and how it is used?
+The project primarily utilizes HTML and CSS:
+
+HTML: Structures the content and layout of each card, utilizing semantic tags for accessibility and SEO optimization.
+CSS: Styles each card with custom designs, animations, and responsive layouts to create visually appealing and functional web cards.
+Key Components
+Card Design
+Interactive Elements
+Animation Effects
+Responsive Design
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
