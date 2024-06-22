@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Raleway', sans-serif;
-    background-image: url('/pages/hero-3/assets/img/hupplepuf.jpg'); /* Add your background image here */
+    font-family: 'Cinzel', serif;
+    background-image: url('/pages/hero-3/assets/img/newt\ bg2.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -50,8 +52,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    max-width: 800px;
-    height: 300px;
+    max-width: 1000px;
+    height: 400px;
     animation: float 3s ease-in-out infinite;
 }
 
@@ -74,7 +76,7 @@ body {
 }
 
 .content h1 {
-    font-size: 28px;
+    font-size: 20px;
     margin: 0 0 10px;
     color: #333;
     animation: slideInLeft 1s ease-in-out;

@@ -1,0 +1,614 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-color: #32404e;
+}
+div.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    background: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.header a {
+    color: #e4dfdf;
+    text-decoration: none;
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #000;
+}
+
+.header a:hover {
+    background-color: #4c64d3;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+
+.card1 {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+
+.card1-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.card1-image img {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+}
+
+.card1-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Harry Potter', sans-serif;
+    color: #4d2b1d;
+}
+
+.card1-description {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0 0;
+}
+
+
+.card1-action {
+    background-color: #851313;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto;
+}
+
+.card1-button {
+    background-color: #fdfdfd;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Cinzel', serif;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card1-button:hover {
+    background-color: #f1c40f;
+    color: #4d2b1d;
+    transform: scale(1.05);
+}
+
+/* List Styles */
+.card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.card-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.card-list-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-list-content {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.card-list-content h3 {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.card-list-content p {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.card-list-action {
+    margin-left: auto;
+}
+
+.card-menu-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.card-menu-button:hover {
+    color: #333;
+}
+
+
+
+
+
+
+.card2 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #ececec;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 700px;
+}
+
+
+.card2-image {
+    width: 250px;
+    overflow: hidden;
+}
+
+.card2-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.card2-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #d5dde6, #f7f9fc);
+}
+
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-size: 16px;
+    color: #2c3e50;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.author-role {
+    font-size: 14px;
+    color: #34495e;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.card2-title {
+    font-size: 22px;
+    color: #2c3e50;
+    margin: 10px 0;
+    font-family: 'Cinzel', serif;
+}
+
+.card2-meta {
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+
+.card2-description {
+    font-family: 'Cinzel', serif;
+    font-size: 16px;
+    color: #34495e;
+}
+
+.card2-description a {
+    font-family: 'Cinzel', serif;
+    color: #8e44ad;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.card2-description a:hover {
+    color: #732d91;
+}
+
+
+
+
+
+.card3 {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 400px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.card3-content {
+    padding: 20px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: fadeIn 2s ease-in;
+}
+
+.card3-content h1 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #333;
+    animation: slideInLeft 1s ease-in-out;
+}
+
+.card3-content p {
+    font-size: 16px;
+    color: #555;
+    animation: slideInRight 1s ease-in-out;
+}
+
+.card3-image {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 2s ease-in;
+}
+
+.card3-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 15px 15px 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.card4 {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 90%;
+    color: white;
+    position: relative;
+}
+
+.logo4 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo4 img {
+    height: 40px;
+}
+
+.main-content4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.image4-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image4-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-content4 {
+    flex: 2;
+    padding: 20px;
+}
+
+.text-content4 h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.text-content4 h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    color: #cccccc;
+}
+
+.text-content4 p {
+    font-size: 16px;
+    color: #bbbbbb;
+}
+
+.signature img {
+    height: 100px;
+    margin: 20px 0;
+}
+
+.next {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.next a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+div.card5 {
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    animation: fadeIn 2s ease-in-out, scaleUp 1.5s ease-in-out;
+    margin: 20px auto;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/pages/hero-5/assets/img/GGbg.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.3;
+    animation: backgroundMove 10s infinite alternate;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+    animation: rotateProfilePic 4s linear infinite;
+}
+
+.text-content h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Cinzel', serif;
+    animation: textFadeIn 2s ease-in-out;
+}
+
+.text-content p {
+    font-size: 14px;
+    font-family: 'Cinzel', serif;
+    line-height: 1.6;
+    animation: textFadeIn 3s ease-in-out;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 14px;
+    font-family: 'Cinzel', serif;
+}
+
+.btn:hover {
+    background: #555;
+    transform: scale(1.1);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: background 0.3s, transform 0.3s;
+    animation: iconBounce 2s infinite alternate;
+}
+
+.icon:hover {
+    background-color: #aaa;
+    transform: scale(1.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: center top;
+    }
+    100% {
+        background-position: center bottom;
+    }
+}
+
+@keyframes rotateProfilePic {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes textFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes iconBounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+

@@ -1,6 +1,9 @@
+
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap');
 body {
-    font-family: 'Arial, sans-serif';
-    background-image: url('/pages/hero-4/assets/img/slytherin\ common.jpg'); /* Add your background image here */
+    font-family: 'Cinzel', serif;
+    background-image: url('/pages/hero-4/assets/img/slytherin\ common.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
