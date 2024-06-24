@@ -56,7 +56,7 @@
 ## Overview
 
 <h1>Project Description</h1>
-The project is about creating dynamic web cards using HTML and CSS, designed to showcase various content sections with engaging transitions and animations.
+
 
 
 The project is about creating interactive web cards using HTML and CSS. Each card is designed to present specific content sections with visually appealing layouts and animations.
