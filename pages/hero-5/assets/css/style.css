@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('/pages/hero-5/assets/img/ggbg\ face.jpg');
+    background-image: url('../img/ggbg\ face.jpg');
     background-size: cover;
     font-family: Arial, sans-serif;
 }
@@ -63,7 +63,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/pages/hero-5/assets/img/GGbg.jpg') no-repeat center center/cover;
+    background: url('../img/GGbg.jpg') no-repeat center center/cover;
     z-index: -1;
     opacity: 0.3;
     animation: backgroundMove 10s infinite alternate;

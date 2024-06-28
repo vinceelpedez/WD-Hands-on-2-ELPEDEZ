@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Cinzel', serif;
-    background-image: url('/pages/hero-4/assets/img/slytherin\ common.jpg');
+    background-image: url('../img/slytherin\ common.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;

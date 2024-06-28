@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: url('/pages/hero-2/assets/img/phoenex.jpeg') no-repeat center center fixed;
+    background: url('../img/phoenex.jpeg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;

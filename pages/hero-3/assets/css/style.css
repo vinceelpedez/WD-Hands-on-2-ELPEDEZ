@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Cinzel', serif;
-    background-image: url('/pages/hero-3/assets/img/newt\ bg2.jpg');
+    background-image: url('../img/newt\ bg2.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
