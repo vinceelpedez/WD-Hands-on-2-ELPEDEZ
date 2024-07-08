@@ -125,4 +125,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Fonts | Fonts for websites | (https://www.fontspace.com/category/harry-potter) |
+|Inspo| Inspo for cards| https://www.pinterest.com/|
+|Css| Inspo for animation|https://www.w3schools.com/css/css3_animations.asp|
+|Ui| inspo for buttons and animation|https://uiverse.io/|
